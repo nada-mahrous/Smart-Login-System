@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+
+    <!-- body -->
+
+    
+    <!-- <span class="d-none" id="userName"></span> -->
+    <div class="container my-5 text-center">
+        <div class="body p-5  m-auto">
+            <h2 class="tittle">Smart Login System</h2>
+
+            <input  type="email" class="form-control my-3  mx-auto " placeholder="Enter your email"
+                id="signinEmailInput">
+            <input  type="password" class="form-control mb-3 mx-auto " placeholder="Enter your password"
+                id="signinPasswordInput">
+            <p id="incorrect"></p>
+            <button onclick="login()" id="logInBtn" class="btn btn-outline-info w-100 my-3">
+                Login
+                <!-- <a href="welcome.html" target="_blank"></a> -->
+            </button>
+            <!-- <a href="welcome.html" onclick="login()" id="logInBtn" class="btn btn-outline-info w-100 my-3">
+                Login
+            </a> -->
+            <p class="text-white sureSentance">
+                Don't have an account? 
+                <a href="signup.html" class="text-white">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

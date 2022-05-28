@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+
+    <!-- body -->
+    <!-- <span class="d-none" id="userName"></span> -->
+    <div class="container my-5 text-center">
+        <div class="body p-5  m-auto">
+            <h2 class="tittle">Smart Login System</h2>
+            <input type="text" class="form-control my-3  mx-auto " placeholder="Enter your name"
+                id="signupNameInput">
+            <input type="email" class="form-control my-3  mx-auto " placeholder="Enter your email"
+                id="signupEmailInput">
+            <input type="password" class="form-control mb-3 mx-auto " placeholder="Enter your password"
+                id="signupPasswordInput">
+            <p id="exist"></p>
+            <button onclick="signUp()" id="signUpBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white sureSentance">
+                You have an account? 
+                <a href="index.html" class="text-white">Signin</a>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
